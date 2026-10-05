@@ -1,0 +1,41 @@
+<mjml><mj-body><mj-container background-color="#574DA0">
+  <mj-section full-width="full-width">
+    <mj-column>
+      <mj-text color="#EEE" font-size="30px" font-family="roboto">Start mjml</mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-section padding="0">
+    <mj-column>
+      <mj-text color="#EEE" font-family="roboto" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat, viverra libero in, vulputate nulla. Vivamus sit amet sapien non metus viverra ornare ut rutrum ligula.</mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-section padding="0">
+    <mj-column>
+      <mj-image src="http://placehold.it/350x50" href="http://google.com"></mj-image>
+    </mj-column>
+  </mj-section>
+
+  <mj-section padding="0">
+    <mj-column>
+      <mj-text color="#EEE" font-family="roboto" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat, viverra libero in, vulputate nulla. Vivamus sit amet sapien non metus viverra ornare ut rutrum ligula.</mj-text>
+    </mj-column>
+    <mj-column>
+      <mj-text color="#EEE" font-family="roboto" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat, viverra libero in, vulputate nulla. Vivamus sit amet sapien non metus viverra ornare ut rutrum ligula.</mj-text>
+    </mj-column>
+    <mj-column>
+      <mj-text color="#EEE" font-family="roboto" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat, viverra libero in, vulputate nulla. Vivamus sit amet sapien non metus viverra ornare ut rutrum ligula.</mj-text>
+    </mj-column>
+  </mj-section>
+
+  <mj-section padding-top="0">
+    <mj-column>
+      <mj-text color="#EEE" font-family="roboto">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat, viverra libero in, vulputate nulla. Vivamus sit amet sapien non metus viverra ornare ut rutrum ligula.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat, viverra libero in, vulputate nulla. Vivamus sit amet sapien non metus viverra ornare ut rutrum ligula.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat, viverra libero in, vulputate nulla. Vivamus sit amet sapien non metus viverra ornare ut rutrum ligula.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat, viverra libero in, vulputate nulla. Vivamus sit amet sapien non metus viverra ornare ut rutrum ligula.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ipsum consequat, viverra libero in, vulputate nulla. Vivamus sit amet sapien non metus viverra ornare ut rutrum ligula.</p>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-container></mj-body></mjml>
