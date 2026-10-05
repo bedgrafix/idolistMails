@@ -88,12 +88,11 @@
 					<tr>
 						<td>
 							<mj-text padding="0">
-								<p class="title">Спасибо!</p>
-								<p class="title">Ваш заказ в обработке</p>
+								<p class="title">Ваш заказ отправлен</p>
 							</mj-text>
 						</td>
-						<td width="40px">
-							<img width="48px" src="../img/inprogress.png" align="left" />
+						<td width="48px">
+							<img width="48px" src="../img/sent.png" align="left" />
 						</td>
 					</tr>
 				</mj-table>
@@ -103,8 +102,7 @@
 			<mj-column padding="0 10px 16px" >
 				<mj-text padding="0">
 					<p class="text">Здравствуйте, Александр! </p>
-					<p class="text">Мы с вами связались и уточнили детали вашего заказа №1254. </p>
-					<p class="text">После подтверждения мы подготовим его к отправке. </p>
+					<p class="text">Ваш заказ №1254 передан в СДЭК и уже в пути.</p>
 				</mj-text>
 			</mj-column>
 		</mj-section>
@@ -121,21 +119,30 @@
 						<td width="50%">
 							<mj-text padding="0">
 								<p class="order-title">Статус: </p>
-								<p class="order-state" style="color: #C47A1A;">В обработке </p>
+								<p class="order-state" style="color: #97B0DC;">В обработке </p>
+							</mj-text>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="padding-top: 4px;">
+							<mj-text padding="0">
+								<p class="order-title">Трек-номер СДЭК: </p>
+								<p class="order-caption">1234567890 </p>
 							</mj-text>
 						</td>
 					</tr>
 				</mj-table>
 			</mj-column>
 		</mj-section>
+		<mj-spacer height="42px" />
 		<mj-section padding="0">
-			<mj-column padding="0 10px 0" >
-				<mj-text padding="0">
-					<p class="text">Если у вас есть вопросы — ответьте на это письмо или свяжитесь с нами удобным способом! </p>
-				</mj-text>
+			<mj-column padding="0" >
+				<mj-button css-class="full-width-btn" padding="10px" border-radius="0" href="#" width="100%" height="40px" background-color="#1D1D1B" font-size="14px">
+					<span style="text-transform: uppercase;">Оплатить заказ</span>
+				</mj-button>
 			</mj-column>
 		</mj-section>
-		<mj-spacer height="42px" />
+		<mj-spacer height="10px" />
 		<mj-section padding="0">
 			<mj-column padding="16px 10px 16px" border-top="1px solid #E8E8E8">
 				<mj-table padding="0" cellpadding="0" cellspacing="0" border="0" width="100%" >
