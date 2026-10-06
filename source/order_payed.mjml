@@ -5,65 +5,65 @@
 		<mj-font name="Oswald" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" />
 		<mj-style>
 			body {
-				color: #1D1D1B;
-				font-family: "Oswald", Arial, sans-serif;
-				max-width: 480px;
-				margin: 0 auto;
-				font-weight: 300;
+			color: #1D1D1B;
+			font-family: "Oswald", Arial, sans-serif;
+			max-width: 480px;
+			margin: 0 auto;
+			font-weight: 300;
 			}
 			p {
-				margin: 0;
+			margin: 0;
 			}
 			.title {
-				font-size: 16px;
-				line-height: 20px;
-				font-weight: 500;
-				text-transform: uppercase;
-				margin: 0;
+			font-size: 16px;
+			line-height: 20px;
+			font-weight: 500;
+			text-transform: uppercase;
+			margin: 0;
 			}
 			.text {
-				font-size: 14px;
-				line-height: 18px;
-				font-weight: 300;
-				margin: 0;
+			font-size: 14px;
+			line-height: 18px;
+			font-weight: 300;
+			margin: 0;
 			}
 			.order-title {
-				font-size: 14px;
-				line-height: 18px;
-				color: #8E8E8D;
-				font-weight: 400;
+			font-size: 14px;
+			line-height: 18px;
+			color: #8E8E8D;
+			font-weight: 400;
 			}
 			.order-caption {
-				font-size: 14px;
-				line-height: 18px;
-				font-weight: 500;
-				text-transform: uppercase;
+			font-size: 14px;
+			line-height: 18px;
+			font-weight: 500;
+			text-transform: uppercase;
 			}
 			.social-title {
-				font-size: 14px;
-				line-height: 18px;
+			font-size: 14px;
+			line-height: 18px;
 			}
 			.social-link {
-				text-decoration: none;
-				color: #1D1D1B;
+			text-decoration: none;
+			color: #1D1D1B;
 			}
 			.footer-logo {
-				font-weight: 500;
-				font-size: 14px;
-				line-height: 18px;
-				text-transform: uppercase;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 18px;
+			text-transform: uppercase;
 			}
 			.footer-text {
-				font-weight: 300;
-				font-size: 14px;
-				line-height: 18px;
-				color: #8E8E8D;
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 18px;
+			color: #8E8E8D;
 			}
 			.order-state {
-				font-size: 14px;
-				line-height: 18px;
-				font-weight: 500;
-				text-transform: uppercase;
+			font-size: 14px;
+			line-height: 18px;
+			font-weight: 500;
+			text-transform: uppercase;
 			}
 			.full-width-btn a {
 			display: block !important;
@@ -88,9 +88,12 @@
 					<tr>
 						<td>
 							<mj-text padding="0">
-								<p class="title">Спасибо!</p>
-								<p class="title">Ваша заявка принята</p>
+								<p class="title">Ваш заказ</p>
+								<p class="title">оплачен</p>
 							</mj-text>
+						</td>
+						<td width="48px">
+							<img width="48px" src="../img/approved.png" align="left" />
 						</td>
 					</tr>
 				</mj-table>
@@ -100,8 +103,8 @@
 			<mj-column padding="0 10px 16px" >
 				<mj-text padding="0">
 					<p class="text">Здравствуйте, Александр! </p>
-					<p class="text">Мы получили вашу заявку №1254 и уже приступили к её обработке. </p>
-					<p class="text">В ближайшее время мы свяжемся с вами для подтверждения деталей. </p>
+					<p class="text">Детали заказа №1254 согласованы. </p>
+					<p class="text">Мы готовим его к отправке. </p>
 				</mj-text>
 			</mj-column>
 		</mj-section>
@@ -117,8 +120,16 @@
 						</td>
 						<td width="50%">
 							<mj-text padding="0">
-								<p class="order-title">Дата: </p>
-								<p class="order-caption">18 мая 2024, 14:32 </p>
+								<p class="order-title">Статус: </p>
+								<p class="order-state" style="color: #2A8A42;">оплачено </p>
+							</mj-text>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="padding-top: 4px;">
+							<mj-text padding="0">
+								<p class="order-title">Адрес доставки: </p>
+								<p class="text">Пункт выдачи СДЭК<br/>г. Москва, ул. Тверская, 12</p>
 							</mj-text>
 						</td>
 					</tr>
@@ -126,13 +137,13 @@
 			</mj-column>
 		</mj-section>
 		<mj-section padding="0">
-			<mj-column padding="0 10px 0" >
-				<mj-text padding="0">
-					<p class="text">Если у вас есть вопросы — ответьте на это письмо или свяжитесь с нами удобным способом! </p>
-				</mj-text>
+			<mj-column padding="0" >
+				<mj-button css-class="full-width-btn" padding="10px" border-radius="0" href="#" width="100%" height="40px" background-color="#1D1D1B" font-size="14px">
+					<span style="text-transform: uppercase;">Посмотреть заказ</span>
+				</mj-button>
 			</mj-column>
 		</mj-section>
-		<mj-spacer height="42px" />
+		<mj-spacer height="10px" />
 		<mj-section padding="0">
 			<mj-column padding="16px 10px 16px" border-top="1px solid #E8E8E8">
 				<mj-table padding="0" cellpadding="0" cellspacing="0" border="0" width="100%">
