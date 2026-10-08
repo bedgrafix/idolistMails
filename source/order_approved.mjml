@@ -226,7 +226,6 @@
 			<mj-column padding="20px 0 0">
 				<mj-text padding="0">
 					<p class="footer-logo">IDOLIST</p>
-					<mj-spacer height="42px" />
 					<p class="footer-text">Благодарим за доверие!</p>
 				</mj-text>
 			</mj-column>
