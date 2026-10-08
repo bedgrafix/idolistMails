@@ -2,12 +2,15 @@
 	<mj-head>
 		<mj-title>idolist application accept</mj-title>
 		<mj-preview>idolist application accept</mj-preview>
-		<mj-font name="Oswald" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" />
+		<mj-font name="Oswald" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" />
+		<mj-attributes>
+			<mj-all font-family="Oswald, Arial, sans-serif" />
+		</mj-attributes>
 		<mj-style>
 			body {
+			background-color: #fafafa;
 			color: #1D1D1B;
 			font-family: "Oswald", Arial, sans-serif;
-			max-width: 480px;
 			margin: 0 auto;
 			font-weight: 300;
 			}
@@ -68,11 +71,18 @@
 			.full-width-btn a {
 			display: block !important;
 			}
+			table, td, p, a, span {
+			font-family: "Oswald", Arial, sans-serif;
+			}
 		</mj-style>
 	</mj-head>
-	<mj-body background-color="#FFF">
+	<mj-body background-color="#fafafa">
+		<mj-section padding="0" background-color="#fafafa">
+			<mj-column padding="0"><mj-spacer height="24px" /></mj-column>
+		</mj-section>
+		<mj-wrapper padding="32px" background-color="#ffffff" border="1px solid #e4e4e7" border-radius="4px">
 		<mj-section padding="0">
-			<mj-column padding="12px 10px 16px" >
+			<mj-column padding="0 0 16px" >
 				<mj-table padding="0">
 					<tr>
 						<td>
@@ -83,7 +93,7 @@
 			</mj-column>
 		</mj-section>
 		<mj-section padding="0">
-			<mj-column padding="0 10px 16px" >
+			<mj-column padding="0 0 16px" >
 				<mj-table padding="0">
 					<tr>
 						<td>
@@ -100,7 +110,7 @@
 			</mj-column>
 		</mj-section>
 		<mj-section padding="0">
-			<mj-column padding="0 10px 16px" >
+			<mj-column padding="0 0 16px" >
 				<mj-text padding="0">
 					<p class="text">Здравствуйте, Александр! </p>
 					<p class="text">Заказ №1254 был отменён. </p>
@@ -109,7 +119,7 @@
 			</mj-column>
 		</mj-section>
 		<mj-section padding="0">
-			<mj-column padding="0 10px 16px" >
+			<mj-column padding="0 0 16px" >
 				<mj-table padding="0">
 					<tr>
 						<td width="50%">
@@ -136,9 +146,13 @@
 				</mj-table>
 			</mj-column>
 		</mj-section>
-		<mj-spacer height="42px" />
 		<mj-section padding="0">
-			<mj-column padding="16px 10px 16px" border-top="1px solid #E8E8E8">
+			<mj-column padding="0">
+				<mj-spacer height="42px" />
+			</mj-column>
+		</mj-section>
+		<mj-section padding="0">
+			<mj-column padding="16px 0" border-top="1px solid #e4e4e7">
 				<mj-table padding="0" cellpadding="0" cellspacing="0" border="0" width="100%">
 					<tr>
 						<td width="25%" align="center" valign="middle">
@@ -202,13 +216,17 @@
 			</mj-column>
 		</mj-section>
 		<mj-section padding="0">
-			<mj-column padding="0 10px 12px">
+			<mj-column padding="20px 0 0">
 				<mj-text padding="0">
 					<p class="footer-logo">IDOLIST</p>
 					<mj-spacer height="42px" />
 					<p class="footer-text">Благодарим за доверие!</p>
 				</mj-text>
 			</mj-column>
+		</mj-section>
+						</mj-wrapper>
+		<mj-section padding="0" background-color="#fafafa">
+			<mj-column padding="0"><mj-spacer height="24px" /></mj-column>
 		</mj-section>
 	</mj-body>
 </mjml>
